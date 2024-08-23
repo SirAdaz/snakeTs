@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "./dist/js",   // Répertoire de sortie pour le JavaScript compilé
+    "sourceMap": true
+  },
+  "include": [
+    "src/js/**/*.ts"         // Inclure tous les fichiers TypeScript dans le répertoire src/js
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
+  
